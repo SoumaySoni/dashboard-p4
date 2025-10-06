@@ -44,12 +44,12 @@ export const dashboardStats: DashboardStats = {
 };
 
 export const recentOrders: Order[] = [
-  { id: 'ORD-001', customer: 'John Doe', product: 'Premium Headphones', amount: 299.99, status: 'completed', date: '2024-01-15' },
-  { id: 'ORD-002', customer: 'Jane Smith', product: 'Wireless Mouse', amount: 49.99, status: 'processing', date: '2024-01-15' },
-  { id: 'ORD-003', customer: 'Mike Johnson', product: 'Mechanical Keyboard', amount: 159.99, status: 'pending', date: '2024-01-14' },
-  { id: 'ORD-004', customer: 'Sarah Williams', product: '4K Monitor', amount: 499.99, status: 'completed', date: '2024-01-14' },
-  { id: 'ORD-005', customer: 'Tom Brown', product: 'USB-C Hub', amount: 79.99, status: 'cancelled', date: '2024-01-13' },
-  { id: 'ORD-006', customer: 'Emily Davis', product: 'Laptop Stand', amount: 89.99, status: 'completed', date: '2024-01-13' },
+  { id: 'ORD-001', customer: 'Soumay Soni', product: 'Premium Headphones', amount: 299.99, status: 'completed', date: '2024-01-15' },
+  { id: 'ORD-002', customer: 'Soujay Soni', product: 'Wireless Mouse', amount: 49.99, status: 'processing', date: '2024-01-15' },
+  { id: 'ORD-003', customer: 'Neeraj Soni', product: 'Mechanical Keyboard', amount: 159.99, status: 'pending', date: '2024-01-14' },
+  { id: 'ORD-004', customer: 'Mayu', product: '4K Monitor', amount: 499.99, status: 'completed', date: '2024-01-14' },
+  { id: 'ORD-005', customer: 'Ahana', product: 'USB-C Hub', amount: 79.99, status: 'cancelled', date: '2024-01-13' },
+  { id: 'ORD-006', customer: 'Manjari', product: 'Laptop Stand', amount: 89.99, status: 'completed', date: '2024-01-13' },
 ];
 
 export const products: Product[] = [
@@ -64,12 +64,12 @@ export const products: Product[] = [
 ];
 
 export const customers: Customer[] = [
-  { id: 'CST-001', name: 'John Doe', email: 'john@example.com', orders: 12, spent: 2459.89, joinDate: '2023-06-15', status: 'active' },
-  { id: 'CST-002', name: 'Jane Smith', email: 'jane@example.com', orders: 8, spent: 1234.56, joinDate: '2023-07-22', status: 'active' },
-  { id: 'CST-003', name: 'Mike Johnson', email: 'mike@example.com', orders: 15, spent: 3567.89, joinDate: '2023-05-10', status: 'active' },
-  { id: 'CST-004', name: 'Sarah Williams', email: 'sarah@example.com', orders: 5, spent: 876.43, joinDate: '2023-08-30', status: 'active' },
-  { id: 'CST-005', name: 'Tom Brown', email: 'tom@example.com', orders: 3, spent: 456.78, joinDate: '2023-09-12', status: 'inactive' },
-  { id: 'CST-006', name: 'Emily Davis', email: 'emily@example.com', orders: 20, spent: 5432.10, joinDate: '2023-04-05', status: 'active' },
+  { id: 'CST-001', name: 'Soumay Soni', email: 'soumay@example.com', orders: 12, spent: 2459.89, joinDate: '2023-06-15', status: 'active' },
+  { id: 'CST-002', name: 'Soujay Soni', email: 'soujay@example.com', orders: 8, spent: 1234.56, joinDate: '2023-07-22', status: 'active' },
+  { id: 'CST-003', name: 'Neeraj Soni', email: 'neeraj@example.com', orders: 15, spent: 3567.89, joinDate: '2023-05-10', status: 'active' },
+  { id: 'CST-004', name: 'Mayu', email: 'mayu@example.com', orders: 5, spent: 876.43, joinDate: '2023-08-30', status: 'active' },
+  { id: 'CST-005', name: 'Ahana', email: 'ahana@example.com', orders: 3, spent: 456.78, joinDate: '2023-09-12', status: 'inactive' },
+  { id: 'CST-006', name: 'Manjari', email: 'manjari@example.com', orders: 20, spent: 5432.10, joinDate: '2023-04-05', status: 'active' },
 ];
 
 export const salesChartData = [

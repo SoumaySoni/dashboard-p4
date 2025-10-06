@@ -31,8 +31,8 @@ export const DashboardSidebar = () => {
     >
       {/* Logo */}
       <div className="p-6 border-b border-border/50">
-        <h1 className="text-2xl font-bold bg-clip-text text-transparent gradient-primary animate-gradient">
-          E-Shop Pro
+        <h1 className="text-2xl font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient">
+          Soumay Soni
         </h1>
         <p className="text-xs text-muted-foreground mt-1">Premium Dashboard</p>
       </div>
@@ -42,7 +42,7 @@ export const DashboardSidebar = () => {
         {menuItems.map((item) => {
           const isActive = location.pathname === item.path;
           const Icon = item.icon;
-          
+
           return (
             <Link key={item.path} to={item.path}>
               <motion.div
@@ -70,7 +70,7 @@ export const DashboardSidebar = () => {
       <div className="p-4 border-t border-border/50">
         <div className="glassmorphism p-3 rounded-lg">
           <p className="text-xs text-muted-foreground">Version 2.0.0</p>
-          <p className="text-xs text-muted-foreground">© 2024 E-Shop Pro</p>
+          <p className="text-xs text-muted-foreground">© 2024 Soumay Soni</p>
         </div>
       </div>
     </motion.aside>

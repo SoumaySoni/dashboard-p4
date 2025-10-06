@@ -74,7 +74,7 @@ const Products = () => {
                     </Badge>
                   </div>
                   <div className="flex items-center justify-between mt-4">
-                    <p className="text-xl font-bold text-primary">${product.price}</p>
+                    <p className="text-xl font-bold text-primary">Rs. {product.price}</p>
                     <div className="flex gap-2">
                       <Button size="icon" variant="outline" className="h-8 w-8">
                         <Edit className="w-4 h-4" />

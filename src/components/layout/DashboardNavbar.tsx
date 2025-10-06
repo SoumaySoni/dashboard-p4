@@ -55,7 +55,7 @@ export const DashboardNavbar = () => {
             <DropdownMenuItem>
               <div>
                 <p className="font-medium">New customer registered</p>
-                <p className="text-xs text-muted-foreground">Welcome Alex Johnson!</p>
+                <p className="text-xs text-muted-foreground">Welcome Soumay!</p>
               </div>
             </DropdownMenuItem>
           </DropdownMenuContent>

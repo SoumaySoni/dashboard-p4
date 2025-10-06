@@ -25,7 +25,7 @@ const Dashboard = () => {
           <StatsCard
             title="Total Revenue"
             value={dashboardStats.revenue}
-            prefix="$"
+            prefix="Rs. "
             icon={DollarSign}
             trend={12.5}
             delay={0}
@@ -123,7 +123,7 @@ const Dashboard = () => {
                         <p className="text-sm text-muted-foreground">{order.product}</p>
                       </div>
                       <div className="text-right">
-                        <p className="font-medium">${order.amount}</p>
+                        <p className="font-medium">Rs. {order.amount}</p>
                         <Badge 
                           variant={
                             order.status === 'completed' ? 'default' :

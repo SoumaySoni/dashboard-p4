@@ -17,6 +17,7 @@ import {
   Legend,
   ResponsiveContainer
 } from 'recharts';
+import '../index.css'
 
 const Analytics = () => {
   const topProducts = products.sort((a, b) => b.sales - a.sales).slice(0, 5);

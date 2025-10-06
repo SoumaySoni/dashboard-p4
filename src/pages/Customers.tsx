@@ -90,7 +90,7 @@ const Customers = () => {
                       <TableCell>{customer.name}</TableCell>
                       <TableCell>{customer.email}</TableCell>
                       <TableCell>{customer.orders}</TableCell>
-                      <TableCell>${customer.spent.toFixed(2)}</TableCell>
+                      <TableCell>Rs. {customer.spent.toFixed(2)}</TableCell>
                       <TableCell>{customer.joinDate}</TableCell>
                       <TableCell>
                         <Badge variant={customer.status === 'active' ? 'default' : 'secondary'}>

@@ -38,20 +38,20 @@ const Settings = () => {
               <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <Label htmlFor="firstName">First Name</Label>
-                  <Input id="firstName" defaultValue="John" className="bg-background/50" />
+                  <Input id="firstName" defaultValue="Soumay" className="bg-background/50" />
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="lastName">Last Name</Label>
-                  <Input id="lastName" defaultValue="Doe" className="bg-background/50" />
+                  <Input id="lastName" defaultValue="Soni" className="bg-background/50" />
                 </div>
               </div>
               <div className="space-y-2">
                 <Label htmlFor="email">Email</Label>
-                <Input id="email" type="email" defaultValue="john@example.com" className="bg-background/50" />
+                <Input id="email" type="email" defaultValue="soumay@example.com" className="bg-background/50" />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="phone">Phone</Label>
-                <Input id="phone" type="tel" defaultValue="+1 234 567 8900" className="bg-background/50" />
+                <Input id="phone" type="tel" defaultValue="+91 8299421734" className="bg-background/50" />
               </div>
               <Button className="gradient-primary hover-glow">Save Changes</Button>
             </CardContent>

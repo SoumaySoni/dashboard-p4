@@ -94,7 +94,7 @@ const Orders = () => {
                       <TableCell className="font-medium">{order.id}</TableCell>
                       <TableCell>{order.customer}</TableCell>
                       <TableCell>{order.product}</TableCell>
-                      <TableCell>${order.amount}</TableCell>
+                      <TableCell>Rs. {order.amount}</TableCell>
                       <TableCell>{order.date}</TableCell>
                       <TableCell>
                         <Badge 
